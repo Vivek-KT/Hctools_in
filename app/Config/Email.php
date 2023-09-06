@@ -23,22 +23,22 @@ class Email extends BaseConfig
     /**
      * The server path to Sendmail.
      */
-    public string $mailPath = '/usr/sbin/sendmail';
+    public string $mailPath = '';
 
     /**
      * SMTP Server Address
      */
-    public string $SMTPHost = 'ssl://smtp.googlemail.com';
+    public string $SMTPHost = '';
 
     /**
      * SMTP Username
      */
-    public string $SMTPUser = '_mainaccount@hctools.in';
+    public string $SMTPUser = '';
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = 'DP#Ef3yLCTSn';
+    public string $SMTPPass = '';
 
     /**
      * SMTP Port
